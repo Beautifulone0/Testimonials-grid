@@ -1,0 +1,264 @@
+ @import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed&family=Fraunces:opsz@9..144&family=Montserrat&family=Outfit:wght@500&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: hsl(210, 46%, 95%);
+    font-size: 13px;
+    font-family: Barlow semi Condensed;
+    margin: 0;
+    padding: 0;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3, 3fr);
+    padding: 10px 10px;
+    margin: 10px 10px;
+    grid-column-gap: 40px;
+    grid-row-gap: 10px;
+}
+.daniel{
+    background-color:  hsl(263, 55%, 52%);
+    border: 1px solid hsl(263, 55%, 52%);
+    border-radius: 10px;
+    width: 100%;
+    height: 50%;
+    margin: 10px 10px;
+    padding: 10px 10px;
+}
+.d-header img{
+    width: 10%;
+    height: 10%;
+    border: 3px solid hsla(263, 87%, 88%, 0.1);
+    border-radius: 50px;
+    float: left;
+    margin: 10px 10px;
+} 
+.d-header h5{
+    font-weight: 600px;
+    color: hsl(0, 0%, 100%);
+}
+.d-header p{
+    font: 11px;
+    font-weight: 500px;
+    color: hsl(0, 0%, 100%, 0.5);
+}
+.icon{
+    position: relative;
+    top: 0;
+    left: 40%;
+}
+.text1 h4{
+    position: absolute;
+    font-size: 15px;
+    font-weight: 900;
+    color: hsl(0, 0%, 100%);
+    top: 15%;
+    width: 28%;
+    margin-left: 10px; 
+}
+.text1 p{
+    font-size: 12px;
+    font-weight: 500;
+    color: hsla(263, 87%, 88%, 0.7);
+    width: 100%;
+    margin: 5px 10px;
+}
+/*styling jonathan*/
+.jonathan{
+    background-color: hsl(217, 19%, 35%);
+    border: 1px solid hsl(217, 19%, 35%);
+    border-radius: 10px;
+    width: 40%;
+    height: 40%;
+    margin: 10px 10px;
+    padding: 20px 20px;
+}
+.j-header img{
+    width: 20%;
+    height: 20%;
+    border-radius: 50px;
+    border: 3px solid hsla(263, 87%, 88%, 0.7);
+    float: left;
+    margin-right: 10px;
+}
+.j-header h5{
+    font-weight: 600px;
+    color: hsl(0, 0%, 100%);
+}
+.j-header p{
+    font: 11px;
+    font-weight: 500px;
+    color: hsl(0, 0%, 100%, 0.5);
+}
+.text2 h4{
+    position: relative;
+    font-size: 15px;
+    font-weight: 900;
+    color: hsl(0, 0%, 100%);
+    width: 80%;
+    margin-top: 10px;
+}
+.text2 p{
+    font-size: 12px;
+    font-weight: 500;
+    color: hsla(263, 87%, 88%, 0.7);
+    width: 100%;
+    margin-top: 10px;
+}
+/*syling kira*/
+.kira{
+    background-color: hsl(0, 0%, 100%);
+    border: 1px solid hsl(0, 0%, 100%);
+    border-radius: 10px;
+    width: 40%;
+    height: 90%;
+    margin: 10px 10px;
+    padding: 20px 20px;
+}
+.k-header img{
+    width: 20%;
+    height: 20%;
+    border-radius: 50px;
+    float: left;
+    margin-right: 10px;
+}
+.k-header h5 {
+    font-weight: 600px;
+    color: hsl(217, 19%, 35%);
+}
+.k-header p {
+    font: 11px;
+    font-weight: 500px;
+    color: hsla(217, 19%, 35%, 0.7);
+}
+.text3 h4 {
+    position: relative;
+    font-size: 15px;
+    font-weight: 900;
+    color: hsl(217, 19%, 35%);
+    width: 70%;
+    margin-top: 10px;
+}
+.text3 p {
+    font-size: 12px;
+    font-weight: 500;
+    color: hsla(217, 19%, 35%, 0.7);
+    width: 100%;
+    margin-top: 10px;
+}
+/*styling jeanette*/
+.jeanette{
+    background-color: hsl(0, 0%, 100%);
+    border: 1px solid hsl(0, 0%, 100%);
+    border-radius: 10px;
+    width: 40%;
+    height: 70%;
+    margin: 10px 10px;
+    padding: 20px 20px;
+}
+.je-header img {
+    width: 20%;
+    height: 20%;
+    border-radius: 50px;
+    border: 3px solid hsla(263, 87%, 88%, 0.7);
+    float: left;
+    margin-right: 10px;
+}
+
+.je-header h5 {
+    font-weight: 600px;
+    color: hsl(217, 19%, 35%);
+}
+
+.je-header p {
+    font: 11px;
+    font-weight: 500px;
+    color: hsla(217, 19%, 35%, 0.7);
+}
+.text4 h4 {
+    position: relative;
+    font-size: 15px;
+    font-weight: 900;
+    color: hsl(217, 19%, 35%);
+    width: 70%;
+    margin-top: 10px;
+}
+
+.text4 p {
+    font-size: 12px;
+    font-weight: 500;
+    color: hsla(217, 19%, 35%, 0.7);
+    width: 80%;
+    margin-top: 10px;
+}
+/*styling patrick*/
+.patrick{
+    background-color: hsl(217, 19%, 35%);
+    border: 1px solid hsl(217, 19%, 35%);
+    border-radius: 10px;
+    width: 100%;
+    height: 80%;
+    margin: 10px 10px;
+    padding: 20px 20px;
+}
+    
+.p-header img {
+    width: 10%;
+    height: 10%;
+    border-radius: 50px;
+    border: 3px solid hsl(263, 55%, 52%);
+    float: left;
+    margin-right: 10px;
+}
+.p-header h5 {
+    font-weight: 600px;
+    color: hsl(0, 0%, 100%);
+}
+
+.p-header p {
+    font: 11px;
+    font-weight: 500px;
+    color: hsl(0, 0%, 100%, 0.5);
+}
+
+.text5 h4 {
+    position: relative;
+    font-size: 15px;
+    font-weight: 900;
+    color: hsl(0, 0%, 100%);
+    width: 90%;
+    margin-top: 10px;
+}
+
+.text5 p {
+    font-size: 15px;
+    font-weight: 500;
+    color: hsla(263, 87%, 88%, 0.7);
+    width: 100%;
+    margin-top: 20px;
+}
+@media screen and (max-width: 768px) {
+    .grid{
+        display: inline-block;
+        justify-content: center;
+        align-items: center;
+        margin-left: 20%;
+    }
+    .daniel{
+       width: 40%;
+       height: 50%;
+       padding: 20px 22px;
+    }
+    .text1 h4{
+        margin-top: 5%;
+    }
+    .text1 p {
+     margin-top: 15%;
+    }
+    .patrick{
+        width: 40%;
+        height: 40%;
+    }
+}
